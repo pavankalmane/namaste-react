@@ -1,0 +1,1 @@
+{"mappings":"AAEA,MAAM,UAAS,MAAM,cAAc,MAAK;IAAC,IAAG;AAAO,GAAE","sources":["App.js"],"sourcesContent":["\r\n\r\nconst heading= React.createElement(\"h1\",{id:heading},\"Namaste React\")\r\n"],"names":[],"version":3,"file":"index.6bd02f5a.js.map","sourceRoot":"/__parcel_source_root/"}

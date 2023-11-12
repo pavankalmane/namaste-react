@@ -1,0 +1,38 @@
+Caommand to build and run the project.
+devlopment:npm parcel index.html
+production:npm parcel build index.html
+How to create scripts to start and build our projects industry standards?
+We must define it in package.json inside scripts for developmentand for production.
+How to run thses scripts?
+npm run script name provided in package.json.
+
+APP.js Code:
+react elements:Similar to dom elements
+how to create react elements:
+const heading=React.createElement("h1",{id:"heading"},Namaste React);
+
+React.createElement is an object and when rendered this to dom it becomes a html element
+how to render an react object?
+create root? 
+const root=ReactDOM.createRoot(document.getElementById("root"));
+how to render?
+
+jsx is not html it just helps to make developers life easy to code in creating react elements.
+
+JS engine understands only ecma script.
+Babel converts to JSx to JS
+Attributes in jSX must be camel case
+
+
+Two Ways Components:
+Class based :JS classes
+Functional Components:JS functions
+
+functional component
+const exampleFunctional=()=>{
+    return<h1>This functional component</h1>
+}
+when there is one statement in the function. It could be written as below as well
+const exampleFunctional=()=>
+    <h1>This functional component</h1>
+

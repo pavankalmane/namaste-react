@@ -1,0 +1,40 @@
+npm : manages packages but not stands for node package manager.
+npm is a standard repository for all packages.
+package.json is a configuration for npm.
+package is also known as dependency and npm manages those packages.
+Bundler:Is a package which helps in optimizing, compressing the code.ex webpack,parcel
+cmd:npm install -D parcel
+we can install two dependency 1. normal dependency, 2 dev dependency
+package.json: It keeps track of version. Carat will help in intalling minor version 
+packagelock.json: Keeps track of exact version, It keeps a hash of version deployed in local
+Transitive dependency: Interdependencies of packages.
+How to ignite our app?
+npx parcel index.html
+npx means executing  package
+
+Ways to get react
+1.CDL links (not a preferred way)
+costly operation
+2. npm
+3. npx
+
+How to install react ?
+npm install react
+
+How to intsall react dom?
+npm install react-dom
+
+how to import react in html?
+import React from 
+
+Parcel creates 
+dev build 
+local server
+auto refresh
+caching
+image optimization
+Minify files
+
+
+browser list: provides a list of browser that app can be compatabile with.
+To configure it we ned to add browserlist in package.json
